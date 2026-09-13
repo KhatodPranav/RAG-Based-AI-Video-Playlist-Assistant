@@ -25,7 +25,7 @@ top_idx_data=df.loc[max_indx]
 # print(top_idx_data.keys())
 
 prompt=f"""Here are video subtitle chunks containing Video Number,start time in seconds,end time in seconds, text for that time:
-{top_idx_data[["video_number","start","end","text"]].to_string(index=False)}
+{top_idx_data[["video_number","start","end","text"]].to_markdown(index=False)}
 ------------------------------
 Users Question: {question}
 User asked this question related to the video chunk, you have to answer where and how much content is taught in which video (in which video and at what time stamp) and guide the user to go to that particular video. If user asks any unrelated question, tell him you can only answer questions related to selected videos."""
