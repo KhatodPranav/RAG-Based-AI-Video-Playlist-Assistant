@@ -22,7 +22,7 @@ if __name__ == "__main__":
             content=json.load(f)
         texts=[chunk.get("text","") for chunk in content]
         embeddings = []
-        batch_size = 80
+        batch_size = 30
         for i in range(0, len(texts), batch_size):
             batch=texts[i:i +batch_size]
             print(f"Embedding {i} to {i+len(batch)-1}")
