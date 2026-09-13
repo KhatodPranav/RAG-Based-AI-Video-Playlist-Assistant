@@ -1,5 +1,10 @@
 Here are video subtitle chunks containing Video Number,start time in seconds,end time in seconds, text for that time:
-{"video_number":{"1102":0.0,"1108":0.0,"1264":0.0,"1265":0.0,"1523":1.0},"start":{"1102":2550.12,"1108":2562.12,"1264":2874.12,"1265":2876.12,"1523":788.0},"end":{"1102":2552.12,"1108":2564.12,"1264":2876.12,"1265":2878.12,"1523":790.0},"text":{"1102":" data frame","1108":" convert it in data frame","1264":" data frame and type","1265":" of data frame","1523":" And where did this data frame come from?"}}
+ video_number  start    end                                          text
+          1.0  506.0  508.0                   List is an unlabeled array.
+          1.0 1996.0 1997.0                                   one minute,
+          1.0 1028.0 1030.0    because it is going to be one-dimensional.
+          1.0  508.0  510.0                But series is a labeled array.
+          1.0 1115.0 1117.0  I am getting to see only one particular row.
 ------------------------------
-Users Question: What is DataFrame
+Users Question: one-dimensional array
 User asked this question related to the video chunk, you have to answer where and how much content is taught in which video (in which video and at what time stamp) and guide the user to go to that particular video. If user asks any unrelated question, tell him you can only answer questions related to selected videos.
