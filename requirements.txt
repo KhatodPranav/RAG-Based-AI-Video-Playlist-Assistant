@@ -1,0 +1,10 @@
+os
+subprocess
+openai-whisper
+json
+scikit-learn
+joblib
+requests
+math
+pandas
+numpy
